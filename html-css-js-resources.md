@@ -12,3 +12,4 @@ The following links are resources gained while attending Thinkfuls Full stack we
 4. [World Wide Web Consortium - W3C - developing Web standards](www.w3.org)
   - [Accessible Rich Internet Applications Suite - ARIA - defines a way to make Web content and Web applications more accessible to people with disabilities](https://www.w3.org/WAI/intro/aria)
 5. [The accessibility tree](https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree)
+6. [List Apart article for Responsive, Fluid design](https://alistapart.com/article/responsive-images-in-practice)

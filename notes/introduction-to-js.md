@@ -202,3 +202,5 @@ Note that you can add multiple script elements to your HTML. Later in this cours
 </html>
 ```
 It's important to understand that when a browser reads in an HTML file, it goes top to bottom, left to right. That means that the order of your script elements matters. If you have one script that relies on another one being loaded, that script should appear above it in your HTML.
+
+### Variable Basics

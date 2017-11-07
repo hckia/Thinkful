@@ -150,3 +150,44 @@ When considering whether or not to use newer language features in your code, res
 The part of JavaScript that deals with interacting with HTML elements — called the DOM (document object model) API, which we'll cover in unit 3 of this course — is specified by the [W3C - (World Wide Web Consortium)](https://www.w3.org/DOM/), which is the same organization that creates the specification for HTML.
 
 The key take away for you is this: what JavaScript is gets specified by the ECMA and W3C specs. Individual browsers handle the how of implementing the ECMA and W3C specifications. As a programmer, your experience of using JavaScript on any particular browser is — for the most part — uniform. But behind the scenes, that JavaScript is getting interpreted by a browser that may support all, or only a subset of the features and requirements listed in a version of the ECMA and W3C specs.
+
+### Getting Scripts into a web Page
+
+Here's an example of putting JS code directly in HTML:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <script>
+    function main() {
+      const message = "Hello world from JS!";
+      console.log(message);
+      alert(message);
+    };
+    main();
+  </script>
+</body>
+</html>
+```
+
+Unless you have a specific reason to store your JS directly in your HTML, always put it in a separate file. Here's the same example we just saw, but with the JavaScript in an external file.
+
+index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <script src="app.js"></script>
+</body>
+</html>
+```
+app.js
+```
+function main() {
+      const message = "Hello world from JS!";
+      console.log(message);
+      alert(message);
+};
+main();
+```

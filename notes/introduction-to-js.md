@@ -146,3 +146,7 @@ Each individual browser is responsible for implementing the JavaScript spec. For
 In this curriculum, we'll use version 5 features plus a subset of features from version 6 of ECMAscript.
 
 When considering whether or not to use newer language features in your code, resources like [caniuse.com](https://caniuse.com/) can help you understand which browsers support the feature.
+
+The part of JavaScript that deals with interacting with HTML elements — called the DOM (document object model) API, which we'll cover in unit 3 of this course — is specified by the [W3C - (World Wide Web Consortium)](https://www.w3.org/DOM/), which is the same organization that creates the specification for HTML.
+
+The key take away for you is this: what JavaScript is gets specified by the ECMA and W3C specs. Individual browsers handle the how of implementing the ECMA and W3C specifications. As a programmer, your experience of using JavaScript on any particular browser is — for the most part — uniform. But behind the scenes, that JavaScript is getting interpreted by a browser that may support all, or only a subset of the features and requirements listed in a version of the ECMA and W3C specs.

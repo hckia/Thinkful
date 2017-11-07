@@ -1,4 +1,4 @@
-# Thinkful html, css, and js resources
+# Thinkful web development resources
 
 The following links are resources gained while attending Thinkfuls Full stack web dev bootcamp...
 
@@ -13,3 +13,4 @@ The following links are resources gained while attending Thinkfuls Full stack we
   - [Accessible Rich Internet Applications Suite - ARIA - defines a way to make Web content and Web applications more accessible to people with disabilities](https://www.w3.org/WAI/intro/aria)
 5. [The accessibility tree](https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree)
 6. [List Apart article for Responsive, Fluid design](https://alistapart.com/article/responsive-images-in-practice)
+7. [caniuse.com can help you understand which browsers support the feature.](https://caniuse.com/)

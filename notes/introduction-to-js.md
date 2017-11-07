@@ -133,8 +133,16 @@ What you do with JavaScript in the browser can be broken down into two categorie
 
 The part of JavaScript that deals with modeling and manipulating data — that is, using variables, constants, strings, numbers, logic, functions, etc. — is specified by [ECMA -the European Association for Standardizing Information and Communication Systems](http://www.ecma-international.org/memento/history.htm). This organization creates the ECMAscript specification, which is a description of what a language called ECMAscript should implement.
 
-Here's (part of) what the ECMA 6 spec states is the behavior of string literals, which is a term that refers to representing strings in JavaScript by using the syntax: "foo bar" or 'foo bar':
+Here's (part of) what the [ECMA 6 spec states is the behavior of string literals](https://www.ecma-international.org/ecma-262/6.0/#sec-literals-string-literals), which is a term that refers to representing strings in JavaScript by using the syntax: "foo bar" or 'foo bar':
 
 > A string literal is zero or more Unicode code points enclosed in single or double quotes. Unicode code points may also be represented by an escape sequence. 
 > All code points may appear literally in a string literal except for the closing quote code points, U+005C (REVERSE SOLIDUS), U+000D (CARRIAGE RETURN), U+2028 (LINE SEPARATOR), U+2029 (PARAGRAPH SEPARATOR), and U+000A (LINE FEED). 
 > Any code points may appear in the form of an escape sequence. String literals evaluate to ECMAScript String values...
+
+Each individual browser is responsible for implementing the JavaScript spec. For instance, [v8, the JavaScript interpreter used by Google Chrome](https://github.com/v8/v8), is written in c++, and implements the set of features from the spec, listed [here](http://kangax.github.io/compat-table/es5/). 
+
+-The JavaScript interpreter is responsible for translating your JavaScript code into instructions the Chrome browser can execute.
+
+In this curriculum, we'll use version 5 features plus a subset of features from version 6 of ECMAscript.
+
+When considering whether or not to use newer language features in your code, resources like [caniuse.com](https://caniuse.com/) can help you understand which browsers support the feature.

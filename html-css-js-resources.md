@@ -14,3 +14,4 @@ The following links are resources gained while attending Thinkfuls Full stack we
 5. [The accessibility tree](https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree)
 6. [List Apart article for Responsive, Fluid design](https://alistapart.com/article/responsive-images-in-practice)
 7. [caniuse.com can help you understand which browsers support the feature.](https://caniuse.com/)
+8. [DOM (Document Object Model)](https://www.w3.org/DOM/)

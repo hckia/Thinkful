@@ -204,3 +204,78 @@ Note that you can add multiple script elements to your HTML. Later in this cours
 It's important to understand that when a browser reads in an HTML file, it goes top to bottom, left to right. That means that the order of your script elements matters. If you have one script that relies on another one being loaded, that script should appear above it in your HTML.
 
 ### Variable Basics
+
+A variable is a name that is attached to a value. Variables open up two possibilities.
+
+1. they give us a shorthand way to refer to values created elsewhere in a program. We can declare and define a variable once, and pass that value around in our code without having to rewrite it each time.
+
+2. variables give us a way to manage state in a program. State has to do with persisting values over time in a program. That probably sounds abstract, so let's look at a concrete example. Consider the following interface, which displays to the user how many times they've clicked a button 
+
+index.html
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <main role="main">
+    <h1><span class="js-click-counter">0</span> clicks</h1>
+    <button class="js-clicker">Click me</button>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+```
+
+index.js
+
+```
+// this function does two things.
+// First it creates a variable
+// called `clickCount`. This variable
+// is meant to keep track of
+// the number of times the user
+// has clicked the "click me"
+// button. Initially we set its value
+// to zero.
+function handleClicks() {
+  let clickCount = 0;
+  
+  // this line sets the inner text
+  // of the `.js-click-counter`
+  // element to the current value
+  // of `clickCount` (which is 0)
+  $('.js-click-counter').text(clickCount);
+  
+  // this line says when the
+  // `.js-clicker` element is
+  // clicked, run the instructions
+  // inside the anonymous function
+  // (that is, the instructions 
+  // between the {...} brackets).
+  $('.js-clicker').click(function(event) {
+    
+    // any time the user clicks, 
+    // we add 1 to the value of 
+    // `clickCount ...
+    clickCount += 1;
+    
+    // ...and display the updated
+    // click count in the
+    // `.js-click-count` element.
+    $('.js-click-counter').text(clickCount);
+  });
+}
+
+// this code just says that when
+// the browser is done loading the
+// page, it should run the
+// `handleClicks` function
+// we've defined above.
+$(handleClicks);
+```

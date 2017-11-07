@@ -124,3 +124,17 @@ Your goal in the remainder of this course is to become literate with JavaScript 
 
 ### What is JavaScript?
 
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript) is one of many programming languages, but it’s the only one available in all modern browsers.
+
+What you do with JavaScript in the browser can be broken down into two categories... 
+
+1. modeling and manipulating data and processes... 
+2. interacting with browser elements (which are represented using HTML).
+
+The part of JavaScript that deals with modeling and manipulating data — that is, using variables, constants, strings, numbers, logic, functions, etc. — is specified by [ECMA -the European Association for Standardizing Information and Communication Systems](http://www.ecma-international.org/memento/history.htm). This organization creates the ECMAscript specification, which is a description of what a language called ECMAscript should implement.
+
+Here's (part of) what the ECMA 6 spec states is the behavior of string literals, which is a term that refers to representing strings in JavaScript by using the syntax: "foo bar" or 'foo bar':
+
+> A string literal is zero or more Unicode code points enclosed in single or double quotes. Unicode code points may also be represented by an escape sequence. 
+> All code points may appear literally in a string literal except for the closing quote code points, U+005C (REVERSE SOLIDUS), U+000D (CARRIAGE RETURN), U+2028 (LINE SEPARATOR), U+2029 (PARAGRAPH SEPARATOR), and U+000A (LINE FEED). 
+> Any code points may appear in the form of an escape sequence. String literals evaluate to ECMAScript String values...

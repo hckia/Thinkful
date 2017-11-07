@@ -15,3 +15,4 @@ The following links are resources gained while attending Thinkfuls Full stack we
 6. [List Apart article for Responsive, Fluid design](https://alistapart.com/article/responsive-images-in-practice)
 7. [caniuse.com can help you understand which browsers support the feature.](https://caniuse.com/)
 8. [DOM (Document Object Model)](https://www.w3.org/DOM/)
+9. [WebDev Resources (forked from WebDev)](https://github.com/hckia/WebDevResources)

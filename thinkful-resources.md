@@ -21,3 +21,4 @@ The following links are resources gained while attending Thinkfuls Full stack we
   - [WebGL Earth example](http://examples.webglearth.com/)
 13. [Correctly display logo with CSS](https://designshack.net/articles/css/correctly-displaying-your-logo-with-css/)
 14. [Web Colors](http://www.rapidtables.com/web/color/index.htm)
+15. [How to modify subheadings](http://html5doctor.com/howto-subheadings/)

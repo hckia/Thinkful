@@ -129,6 +129,7 @@ This specifies that by default, columns will take up 100% of their parent's widt
 
 Finally, we have a media query that overrides our default styling for column widths on screens that are 640px and wider:
 
+```
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
   /* 3 columns, 3/12 in % */
@@ -149,4 +150,5 @@ Finally, we have a media query that overrides our default styling for column wid
   .col-12 {
   }
 }
+```
 When the viewport is wider than 640px, a 3-width column should take up 25% of its parent row element's width. Since we're using box-sizing: border-box;, that width value is inclusive of the percentage based padding we saw in the earlier ruleset for left and right padding on column classes.

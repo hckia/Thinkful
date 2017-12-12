@@ -6,7 +6,7 @@ function getDataFromApi(searchTerm, callback) {
     data: {
       part: 'snippet',
       q: searchTerm,
-      key: 'AIzaSyC2_O5A8h-8RZsdhIZXjdeyp3TZw13fyVo',
+      key: 'NUNYABIDNESS',
       maxResults: 5
     },
     dataType: 'json',

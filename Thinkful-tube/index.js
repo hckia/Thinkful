@@ -30,9 +30,11 @@ function renderResult(result) {
   console.log(resultID);
   return `
     <div>
-    <h2>${result.snippet.channelTitle}</h2>
-    <p class="result-description">${result.snippet.description}</p>
-    <a href="${resultID}" target= _blank><img src="${result.snippet.thumbnails.default.url}"></a>
+      <h2 class='result-title'>${result.snippet.channelTitle}</h2>
+      <a href="${resultID}" target= _blank><img src="${result.snippet.thumbnails.default.url}"></a>
+      <h4>Results Description</h4>
+      <hr>
+      <p class="result-description">${result.snippet.description}</p>
     // when you don't know WTF the response will be. Rely on STRINGIFY
       ${JSON.stringify(result)};
     </div>

@@ -1,3 +1,4 @@
+// https://courses.thinkful.com/web-dev-001v1/project/2.4.6
 function fizzBuzz(countTo) {
   // create an empty array that will
   // contain our results

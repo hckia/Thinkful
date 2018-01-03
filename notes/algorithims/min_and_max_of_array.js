@@ -1,3 +1,4 @@
+// https://courses.thinkful.com/web-dev-001v1/project/2.4.6
 //without sort function...
 function max(numbers) {
   // we set `currentMax` to the value

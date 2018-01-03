@@ -1,3 +1,4 @@
+// https://courses.thinkful.com/web-dev-001v1/project/2.4.6
 function average(numbers) {
   // initially we set total to the value of the
   // first number.

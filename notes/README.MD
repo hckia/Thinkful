@@ -1,1 +1,4 @@
-[Animating Buttons](https://www.w3schools.com/howto/howto_css_animate_buttons.asp)
+#Resources under notes such as algorithims, designs, how tos...
+
+1. [Animating Buttons](https://www.w3schools.com/howto/howto_css_animate_buttons.asp)
+2. [animate function](http://api.jquery.com/animate/)

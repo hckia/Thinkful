@@ -1,0 +1,33 @@
+.container {
+  padding: 0;
+  max-width: 320px;
+  margin: 0 auto;
+  overflow-x:auto;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+table {
+  text-align: center;
+  min-width: 318px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  /*overflow: hidden;*/
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+th {
+  color: #fff;
+  padding: 20px;
+  background-color: #bcd1f2;
+  /*text-align: center;*/
+}
+
+td {
+  background-color: #e8eef9;
+  padding: 40px;
+  color: #000;
+  font-style: bold;
+  font-size: 25px;
+}

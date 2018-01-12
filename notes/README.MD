@@ -5,3 +5,5 @@
 2. [animate function](http://api.jquery.com/animate/)
     - [animate function example](http://jsfiddle.net/h6jg4/2/)
 3. [fade in function](http://api.jquery.com/fadein/)
+4. Pseudo Class Selectors
+    - [find focused element. With or without searching entire DOM](http://api.jquery.com/focus-selector/)
